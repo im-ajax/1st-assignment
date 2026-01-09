@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* font  */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared classes  */
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.btn{
+    height: 39px;
+    border: none;
+    background-color: #30B868;
+    transition: box-shadow 0.4s ease;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+/* button section  */
+.btn a{
+    color: white;
+    text-decoration: none;
+    padding: 12.5px 16px;
+}
+.btn:hover{
+    box-shadow:0px 0px 13px #30B868;
+    cursor: pointer;
+}
+
+/* main css */
+
+/* header css */
+header{
+    background-color: #FFFFFF;
+}
+.navi{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 16px;
+}
+.navi ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+.navi ul li:hover{
+    text-shadow: 0px 0px 13px black;
+    cursor: pointer;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* section one css  */
+.section-one{
+    height: 674px;
+    background-image: url(/styles/assets/hero-bg.png);
+}
+.section-one .contents{
+    padding: 154.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.section-one .contents .btn-1{
+    height: 29px;
+    width: 190px;
+    border: none;
+    border-radius: 1000px;
+    transition: box-shadow 0.4s ease;
+}
+.section-one .contents .btn-1:hover,
+.section-one .sec-one-btn .btn-3:hover{
+    box-shadow: 0px 0px 13px white;
+}
+.section-one .contents .btn-1 a{
+    text-decoration: none;
+    color: #30B868;
+
+}
+.section-one .lekhalukha h2{
+    color: white;
+    margin-top: 21px;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 7px;
+}
+.section-one .lekhalukha p{
+    text-align: center;
+}
+.section-one .lekhalukha p{
+    color: white;
+    line-height: 25px;
+}
+.sec-one-btn{
+    margin-top: 25px;
+    display: flex;
+    gap: 29px;
+}
+.section-one .sec-one-btn .btn-2{
+    border-radius: 4px;
+    transition: box-shadow 0.4s ease;
+}
+.section-one .sec-one-btn .btn-2 a{
+    width: 230px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-one .sec-one-btn .btn-3{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+    padding: 12px 16px;
+    height: 39px;
+    transition: box-shadow 0.4s ease;
+}
+.section-one .sec-one-btn .btn-3 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* section-2  */
+
+.section-2 .sec-2-text h3{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 58px;
+}
+.section-2 .sec-2-text p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.section-2 .cards .card-inside img{
+    background-color: rgb(255, 76, 21);
+    border-radius: 50%;
+    padding: 18px;
+}
+.section-2 .cards .card-inside {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-2 .cards .card-inside{
+    /* border: 1px solid red; */
+    height: 322px;
+    width: 300px;
+    padding: 85px 10px;
+    /* box-shadow: 0px 0px 8px; */
+    align-items: center;
+    text-align: center;
+    transition: box-shadow 0.4s ease;
+}
+.section-2 .cards .card-inside:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.section-2 .cards{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* section 3  */
+.sec-3-full{
+    margin-top: 70px;
+}
+.sec-3{
+    display: flex;
+    gap: 200px;
+}
+.sec-3-text{
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec-3-text h1{
+    width: 700px;
+    font-size: 48px;
+}
+.sec-3-text ul {
+    list-style: none;    
+    padding: 0;
+    margin: 0;
+}
+
+.sec-3-text ul li {
+    display: flex;
+    align-items: center;   
+    gap: 10px;             
+    margin-bottom: 12px;
+}
+
+.sec-3-text ul li img {
+    width: 20px;          
+    height: 20px;
+    flex-shrink: 0;        
+}
+
+
+/* footer section  */
+footer{
+    background-color: rgba(0, 25, 49, 1);
+    width: 100%;
+    height: 344px;
+}
+.fdiv-1{
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.fdiv-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
