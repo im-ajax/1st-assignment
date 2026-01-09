@@ -69,7 +69,7 @@ header{
 /* section one css  */
 .section-one{
     height: 674px;
-    background-image: url(./styles/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
 }
 .section-one .contents{
     padding: 154.5px;
